@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SaltYacht</title>
     <link rel="stylesheet" href="Estilos.css">
-    <link rel="shortcut icon" href="imagenes/1.png" type="image/x-icon">
+
 </head>
 
 <body>
     <div class="contenedor">
         <div class="barra">
             <ul class="lista-herramientas">
-                <a id="logo" href="#imagen-fondo"><img  src="imagenes/1.png" alt="Logo"></a>
-                
-                <li><a href="">Services</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a id="logo" href="Index.html"><img src="imagenes/1.png" alt="Logo"></a></li>
+
+                <li  ><a class="barra-list" href="">Services</a>
+                    <div class="dropdownMenu">
+                        <ul class="list">
+                            <li ><a class="item-menu" href="">servicios</a></li>
+                            <li ><a class="item-menu" href="">servicios</a></li>
+                            <li ><a class="item-menu" href="">servicios</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li ><a class="barra-list" href="">Contact</a></li>
+                <li ><a class="barra-list" href="">About us</a></li>
 
                 <div class="languages">
                     <select name="languages" id="lang">
@@ -33,7 +41,7 @@
 
         <img id="imagen-fondo" src="imagenes/img_yate.jpg" alt="Imagen fondo">
     </div>
-  
+
 </body>
 
 </html>
