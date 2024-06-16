@@ -5,7 +5,9 @@
 }
 
 .barra{
-    
+    position: fixed;
+    width: 100%;
+    background-color: white;
     font-family: sans-serif;
     font-size: 1.5rem;
     padding: 5px;
@@ -17,7 +19,7 @@
     .lista-herramientas{
         list-style-type: none;
         display: flex;
-        column-gap: 25px;
+        column-gap: 30px;
         align-items: center;
         padding-left: 15px;
 
@@ -30,7 +32,7 @@
            
             justify-content: center;
             margin-left: auto;
-            margin-right: 35px;
+            margin-right: 45px;
 
             #lang{
                 font-size: 18px;
@@ -38,6 +40,8 @@
             }
         }
     }
+
+    
 
    
 }
@@ -47,9 +51,11 @@
     height: 50px;
 }
 
+
+
 #imagen-fondo{
-    width: 1000px;
-    margin: auto;
+    width: 100%;
+    
     
 }
 
