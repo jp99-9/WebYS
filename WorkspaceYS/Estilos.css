@@ -19,7 +19,7 @@
     .lista-links {
 
         display: flex;
-        column-gap: 30px;
+        column-gap: 25px;
         align-items: center;
         padding-left: 15px;
 
@@ -42,12 +42,12 @@
             
             background: white;
             color: black;
-            box-shadow: 0 4px 12px black;
+            box-shadow: 0 px 12px black;
 
         }
 
         .links-nav:hover .drop-down{
-            border-top:  2px solid black;
+            
             display: block;
         }
 
@@ -67,6 +67,14 @@
 
 
 
+}
+
+.lista a{
+    font-weight: lighter;
+    font-size: 1.3rem;
+    padding: 3px;
+    
+    
 }
 
 
