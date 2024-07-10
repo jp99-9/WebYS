@@ -1,6 +1,42 @@
-.contenedor {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+.nav-bar{
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+   
+}
+
+.navigation{
+    justify-content: center;
+    float: left;
+}
+
+.nav{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.nav-bar a{
+    
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover{
+    color: aquamarine;
+    
+}
