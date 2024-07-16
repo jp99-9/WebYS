@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
     <title>SaltYacht</title>
     <link rel="stylesheet" href="Estilos.css">
     <link rel="shortcut icon" href="imagenes/1.png" type="image/x-icon">
@@ -12,11 +16,14 @@
 <body>
 
     <header class="barra">
+        <div>
+            <a id="logo" href="#imagen-fondo"><img src="imagenes/1.png" alt="Logo"></a>
+        </div>
 
         <nav>
             <ul class="lista-links">
 
-                <a id="logo" href="#imagen-fondo"><img src="imagenes/1.png" alt="Logo"></a>
+
                 <li class="links-nav"><a href="">Services</a>
                     <div class="drop-down">
                         <ul class="lista">
@@ -33,7 +40,7 @@
         </nav>
         <nav class="lang">
             <select name="languages" id="lang">
-                <option value="ES">ES</option>
+                <option class="option-lang" value="ES">ES</option>
                 <option value="EN">EN</option>
                 <option value="IT">IT</option>
                 <option value="FR">FR</option>
@@ -43,17 +50,24 @@
 
     </header>
 
-    <img id="imagen-fondo" src="imagenes/img_yate.jpg" alt="Imagen fondo">
-    <div class="banner">
-        <h1>
-            limpia y organiza toda tu seguridad.
-        </h1>
-        <h2>Un forma facil y sencillo de usar.</h2>
-    </div>
+    <section class="fondo-principal">
+      
+        <div class="foto">
+            <img src="imagenes/img_yate.jpg" alt="">
+        </div>
 
-    <div class="input">
+        <div class="banner">
+            <h1>
+                casa
+            </h1>
+            <h2>Hazlo sin miedo</h2>
+        </div>
 
-    </div>
+        <div class="input">
+
+        </div>
+
+    </section>
 
 
 
