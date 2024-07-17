@@ -15,7 +15,13 @@ header {
     justify-content: space-between;
     border-bottom: 1px solid rgb(244, 241, 241);
     z-index: 40;
+    background-color: white;
+}
+
+.logo-principal{
     background-color: transparent;
+    flex-grow: 1;
+    
 }
 
 
@@ -36,6 +42,8 @@ header {
 }
 
 .lang{
+    flex-grow: 1;
+    text-align: end;
     padding-right: 20px;
 }
 
@@ -83,19 +91,34 @@ header {
 .links-nav a:hover {
     font-weight: 900;
     color: rgb(165, 198, 191);
-
-
     transition: 0.5s;
 
 
 }
 
 .fondo-principal{
-   
+   width: 100vw;
+   height: 100vh;
+   position: relative;
 }
 
-.foto{
-   
-    
-    
+.foto {
+    width: 100%;
+    height: 100%;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
 }
